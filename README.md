@@ -3,8 +3,11 @@
 
 ![firmachain_genesis_converter](https://user-images.githubusercontent.com/93243647/148916414-f5d8989e-7fdf-42fa-8cad-25e85f7e70f6.png)
 
+This project is a service that makes it easy to add VestingAccount to Genesis.json. 
 
-how to build firmachain-genesis-converter
+It was used in the creation of FirmaChain mainnet genesis.
+
+How to build firmachain-genesis-converter
 =========================================
 ### 1. install and run
 <pre>
