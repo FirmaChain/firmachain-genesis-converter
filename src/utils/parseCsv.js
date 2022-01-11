@@ -34,6 +34,7 @@ const createJsons = (data) => {
                 validAmount = result.validAmount;
             } else {
                 accountJson = JsonForBase(item);
+                validAmount = true;
             }
             let balanceJson = JsonForBalance(item);
     
