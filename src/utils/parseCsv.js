@@ -27,7 +27,7 @@ const createJsons = (data) => {
             let accountJson;
             let validTime = true;
             let validAmount = true;
-            if(item?.vesting_count !== null || Number(item.vesting_count) > 0){
+            if(item?.vesting_count !== "" || Number(item.vesting_count) > 0){
                 const result = JsonForVesting(item);
                 accountJson = result.vestingJson;
                 validTime = result.validTime;
