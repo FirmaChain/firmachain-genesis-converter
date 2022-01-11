@@ -21,6 +21,8 @@ const Sidebar = () => {
 
     const handleCreateGenesis = () => {
         let gen = genesis;
+        gen.app_state.bank.balances = [];
+
         dataArray.map(item => {
             gen.app_state.auth.accounts.push(item.accounts);
             gen.app_state.bank.balances.push(item.balances);

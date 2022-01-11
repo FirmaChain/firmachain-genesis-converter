@@ -14,7 +14,6 @@ export const ParseCSV = (csv) => {
 }
 
 const orgnizeCSV = (result) => {
-    console.log(result);
     createJsons(result);
 }
 
