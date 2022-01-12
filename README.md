@@ -30,12 +30,17 @@ How to build firmachain-genesis-converter
   name, address, balances, start_time, end_time, vesting_count, vesting_period_arry_n(1~21)
   </code>
 </pre>
+![VESTING](https://user-images.githubusercontent.com/93243647/149070810-e168c476-9a4b-458c-a847-bf72c94c99f6.png)
 * If vesting_count does not have a value, it is created to BaseAccount.
 * If vesting_count has a value, it is created to PeriodicVestingAccount. Also, vesting_periods are created according to the number of vesting_period_arry.
 
 The files created as examples are attached
 ------------------------------------------
-* [220112_FIRMACHAIN_Genesis_Vesting(SAMPLE).csv](https://github.com/FirmaChain/firmachain-genesis-converter/files/7851711/220112_FIRMACHAIN_Genesis_Vesting.SAMPLE.csv)
-* [220112_FIRMACHAIN_Vesting_for_CSV(SAMPLE).xlsx](https://github.com/FirmaChain/firmachain-genesis-converter/files/7851713/220112_FIRMACHAIN_Vesting_for_CSV.SAMPLE.xlsx)
-
+* <a href="https://github.com/FirmaChain/firmachain-genesis-converter/blob/master/sample/220112_FIRMACHAIN_Genesis_Vesting(SAMPLE).csv">220112_FIRMACHAIN_Genesis_Vesting(SAMPLE).csv</a>
+* <a href="https://github.com/FirmaChain/firmachain-genesis-converter/blob/master/sample/220112_FIRMACHAIN_Vesting_for_CSV(SAMPLE).xlsx">220112_FIRMACHAIN_Vesting_for_CSV(SAMPLE).xlsx</a>
 * This is a sample Excel file that can create a csv file and a vesting list generated from the sample Excel file.
+------------------------------------------
+* <a href="https://github.com/FirmaChain/firmachain-genesis-converter/blob/master/sample/base_genesis(SAMPLE).json">base_genesis(SAMPLE).json</a>
+* <a href="https://github.com/FirmaChain/firmachain-genesis-converter/blob/master/sample/genesis(SAMPLE).json">genesis(SAMPLE).json</a>
+* Default frames for genesis file and created file via this project.
+
