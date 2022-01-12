@@ -30,7 +30,7 @@ How to build firmachain-genesis-converter
   name, address, balances, start_time, end_time, vesting_count, vesting_period_arry_n(1~21)
   </code>
 </pre>
-![VESTING](https://user-images.githubusercontent.com/93243647/149070810-e168c476-9a4b-458c-a847-bf72c94c99f6.png)
+![VESTING](https://user-images.githubusercontent.com/93243647/149111407-5074cfb4-dbed-4df5-9f7b-d990983ea27d.png)
 * If vesting_count does not have a value, it is created to BaseAccount.
 * If vesting_count has a value, it is created to PeriodicVestingAccount. Also, vesting_periods are created according to the number of vesting_period_arry.
 
