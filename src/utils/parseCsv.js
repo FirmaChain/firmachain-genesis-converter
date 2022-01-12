@@ -1,5 +1,5 @@
 import { readString } from 'react-papaparse';
-import { GenesisActions } from '../redux/actions';
+import { GenesisActions, PublicActions } from '../redux/actions';
 import { JsonForBalance, JsonForBase, JsonForVesting } from './createJson';
 
 export const ParseCSV = (csv) => {
@@ -8,6 +8,10 @@ export const ParseCSV = (csv) => {
         worker: true,
         skipEmptyLines: true,
         complete: (result) => {
+            if(result.errors.length > 0){
+                PublicActions.setCsvFileName(''); 
+                return alert("Invalid format. Please check the CSV file.");
+            }
             orgnizeCSV(result.data);
         }
     });

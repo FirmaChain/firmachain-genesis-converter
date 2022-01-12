@@ -7,7 +7,7 @@ const InputFile = ({title, setData, setFileName, accept}) => {
 
     const handleChange = (e) =>{
         let file = e.target.files[0];
-        
+
         if(setData) {
             let fileReader = new FileReader();
             fileReader.onload = () => {

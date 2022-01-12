@@ -12,7 +12,16 @@ const Sidebar = () => {
     const state = useSelector(state => state.genesis);
 
     const genesis = useMemo(() => {
-        return JSON.parse(state.genesis);
+        if(state.genesis !== null){
+            try {
+                return JSON.parse(state.genesis);
+            } catch(error) {
+                console.log(error);
+                setGenesisJsonToRedux(null);
+                PublicActions.setGenesisFileName('');
+                alert("Invalid format. Please check the JSON file.");
+            }
+        }
     }, [state.genesis]);
 
     const setGenesisJsonToRedux = (value) => {

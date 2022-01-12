@@ -1,3 +1,5 @@
+import { convertNumber } from "./common";
+
 export const JsonForVesting = (item) => {
     let periodTime = Number(item.start_time);
     let periodAmount = 0;
