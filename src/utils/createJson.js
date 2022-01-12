@@ -16,7 +16,7 @@ export const JsonForVesting = (item) => {
             },
             original_vesting: [
                 {
-                    amount: Number.parseFloat(item.balances).toFixed(0),
+                    amount: convertNumber(item.balances).toFixed(0),
                     denom: "ufct"
                 }
             ],
@@ -51,7 +51,7 @@ export const JsonForVesting = (item) => {
     ]
 
     const validTime = periodTime === Number(item.end_time);
-    const validAmount = periodAmount === Number(item.balances);
+    const validAmount = periodAmount === convertNumber(item.balances);
 
     return {vestingJson, validTime, validAmount};
 }
@@ -76,7 +76,7 @@ export const JsonForBalance = (item) => {
         address : item.address,
         coins: [
             {
-                amount: Number.parseFloat(item.balances).toFixed(0),
+                amount: convertNumber(item.balances).toFixed(0),
                 denom: "ufct",
             }
         ]
