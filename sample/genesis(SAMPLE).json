@@ -1,0 +1,850 @@
+{
+    "genesis_time": "2022-01-12T03:52:26.062572005Z",
+    "chain_id": "imperium-3",
+    "initial_height": "1",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "22020096",
+            "max_gas": "-1",
+            "time_iota_ms": "1000"
+        },
+        "evidence": {
+            "max_age_num_blocks": "100000",
+            "max_age_duration": "172800000000000",
+            "max_bytes": "1048576"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        },
+        "version": {}
+    },
+    "app_hash": "",
+    "app_state": {
+        "auth": {
+            "params": {
+                "max_memo_characters": "256",
+                "tx_sig_limit": "7",
+                "tx_size_cost_per_byte": "10",
+                "sig_verify_cost_ed25519": "590",
+                "sig_verify_cost_secp256k1": "1000"
+            },
+            "accounts": [
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "firma1rzz4jcn3qet8uve6pnjkvmv65j0dsxsdvk8xdj",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "firma1ueqn0yshlcr9gjfwl8629kyaypk9fptrag0l09",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "firma1028k2v9te5ccs5rtrnd47ehdfta2kjcwf4f9f6",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "firma1ekmwzlycm5cjuuq9kl8e5ahfdr4d2wgsjgv07s",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "firma1rzz4jcn3qet8uve6pnjkvmv65j0dsxsdvk8xdj",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "firma1ueqn0yshlcr9gjfwl8629kyaypk9fptrag0l09",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "amount": "21000000801550",
+                                "denom": "ufct"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1660150800"
+                    },
+                    "start_time": "1642006800",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "amount": "1000000123000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "86400",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "172800",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "259200",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "345600",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "432000",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "518400",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "604800",
+                            "amount": [
+                                {
+                                    "amount": "1000000123000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "691200",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "777600",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "864000",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "950400",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "1036800",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "1123200",
+                            "amount": [
+                                {
+                                    "amount": "1000000555550",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "1209600",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "1296000",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "1382400",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "1468800",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "1555200",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "1641600",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "1728000",
+                            "amount": [
+                                {
+                                    "amount": "1000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "firma1028k2v9te5ccs5rtrnd47ehdfta2kjcwf4f9f6",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "amount": "61110500000000",
+                                "denom": "ufct"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1665723600"
+                    },
+                    "start_time": "1642006800",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "amount": "500000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2635200",
+                            "amount": [
+                                {
+                                    "amount": "5000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2635200",
+                            "amount": [
+                                {
+                                    "amount": "50000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2635200",
+                            "amount": [
+                                {
+                                    "amount": "500000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2635200",
+                            "amount": [
+                                {
+                                    "amount": "5000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2635200",
+                            "amount": [
+                                {
+                                    "amount": "50000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2635200",
+                            "amount": [
+                                {
+                                    "amount": "5000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2635200",
+                            "amount": [
+                                {
+                                    "amount": "500000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2635200",
+                            "amount": [
+                                {
+                                    "amount": "50000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2635200",
+                            "amount": [
+                                {
+                                    "amount": "5000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "firma1ekmwzlycm5cjuuq9kl8e5ahfdr4d2wgsjgv07s",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "amount": "50000000000000",
+                                "denom": "ufct"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1736614800"
+                    },
+                    "start_time": "1642006800",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "amount": "10000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "31536000",
+                            "amount": [
+                                {
+                                    "amount": "10000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "31536000",
+                            "amount": [
+                                {
+                                    "amount": "10000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "31536000",
+                            "amount": [
+                                {
+                                    "amount": "20000000000000",
+                                    "denom": "ufct"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "authz": {
+            "authorization": []
+        },
+        "bank": {
+            "params": {
+                "send_enabled": [],
+                "default_send_enabled": true
+            },
+            "balances": [
+                {
+                    "address": "firma1rzz4jcn3qet8uve6pnjkvmv65j0dsxsdvk8xdj",
+                    "coins": [
+                        {
+                            "amount": "467889499198450",
+                            "denom": "ufct"
+                        }
+                    ]
+                },
+                {
+                    "address": "firma1ueqn0yshlcr9gjfwl8629kyaypk9fptrag0l09",
+                    "coins": [
+                        {
+                            "amount": "21000000801550",
+                            "denom": "ufct"
+                        }
+                    ]
+                },
+                {
+                    "address": "firma1028k2v9te5ccs5rtrnd47ehdfta2kjcwf4f9f6",
+                    "coins": [
+                        {
+                            "amount": "61110500000000",
+                            "denom": "ufct"
+                        }
+                    ]
+                },
+                {
+                    "address": "firma1ekmwzlycm5cjuuq9kl8e5ahfdr4d2wgsjgv07s",
+                    "coins": [
+                        {
+                            "amount": "50000000000000",
+                            "denom": "ufct"
+                        }
+                    ]
+                }
+            ],
+            "supply": [],
+            "denom_metadata": []
+        },
+        "burn": {
+            "params": {}
+        },
+        "capability": {
+            "index": "1",
+            "owners": []
+        },
+        "contract": {
+            "contractFileList": [],
+            "contractLogList": [],
+            "contractLogCount": "0"
+        },
+        "crisis": {
+            "constant_fee": {
+                "denom": "ufct",
+                "amount": "1000"
+            }
+        },
+        "distribution": {
+            "params": {
+                "community_tax": "0.020000000000000000",
+                "base_proposer_reward": "0.010000000000000000",
+                "bonus_proposer_reward": "0.040000000000000000",
+                "withdraw_addr_enabled": true
+            },
+            "fee_pool": {
+                "community_pool": []
+            },
+            "delegator_withdraw_infos": [],
+            "previous_proposer": "",
+            "outstanding_rewards": [],
+            "validator_accumulated_commissions": [],
+            "validator_historical_rewards": [],
+            "validator_current_rewards": [],
+            "delegator_starting_infos": [],
+            "validator_slash_events": []
+        },
+        "evidence": {
+            "evidence": []
+        },
+        "feegrant": {
+            "allowances": []
+        },
+        "genutil": {
+            "gen_txs": [
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "imperium-node-001",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "firma1ueqn0yshlcr9gjfwl8629kyaypk9fptrag0l09",
+                                "validator_address": "firmavaloper1ueqn0yshlcr9gjfwl8629kyaypk9fptrrmyy0t",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "Ss/XX4aVS4cncqtXpGTSfq32EdNfcO9jgba3LIAVs6c="
+                                },
+                                "value": {
+                                    "denom": "ufct",
+                                    "amount": "10000000"
+                                }
+                            }
+                        ],
+                        "memo": "28acfbcf8cb5e69ededd414885dd8e72b063d639@192.168.20.108:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "Ai6ityOK7QjUYKIdjPmxns1AALH+dCfwqRx2LRC3nzak"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "AqDtTTojTbqjsKw2uxTB5b+TQBxVh+cZquIvZkYEeb5I9KWI3ReXNLC8ef27HRs6T8pNBS5qkFqWpfdd4h7Maw=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "imperium-node-003",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "firma1ekmwzlycm5cjuuq9kl8e5ahfdr4d2wgsjgv07s",
+                                "validator_address": "firmavaloper1ekmwzlycm5cjuuq9kl8e5ahfdr4d2wgsvm8577",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "ES8+I8VVZKU0snDYcpnQLlE93PQmf/I19BCDZPGRn0A="
+                                },
+                                "value": {
+                                    "denom": "ufct",
+                                    "amount": "10000000"
+                                }
+                            }
+                        ],
+                        "memo": "f03389390a2b08077897e5fd4dd7e0b401d10683@192.168.20.110:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "A82MZSfRLBvjpoykwUbcUhMz89g9+bNwcYT3b3DJUyfB"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "4X6WZrOkyzZYsqufY505XAGBtwuI7/ap9NNtn6viIMdp1mGgdgmX3BBi3v65LqEwkTyhKJT1KRtD6qBma5IBdw=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "imperium-node-002",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "firma1028k2v9te5ccs5rtrnd47ehdfta2kjcwf4f9f6",
+                                "validator_address": "firmavaloper1028k2v9te5ccs5rtrnd47ehdfta2kjcwhxz7f5",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "hYRjaarJbtAme0SRemqBk3nwKq5ahHFd4uAmfj/Bato="
+                                },
+                                "value": {
+                                    "denom": "ufct",
+                                    "amount": "10000000"
+                                }
+                            }
+                        ],
+                        "memo": "fe8e48631f8866c41d510d96cd6bbeb51b26771a@192.168.20.109:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AjNM+vkFpev9DcEK3D3M7E02+pIpeBP6IzfqbX9UEUm7"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "lmlEhRMNVQm8HqExGss16QAlTZdIDpm9KBi6pHqTzSsso605AuaqhOBwWrcl255kV3OtVgmUTdP3Dhw2m/eZJQ=="
+                    ]
+                }
+            ]
+        },
+        "gov": {
+            "starting_proposal_id": "1",
+            "deposits": [],
+            "votes": [],
+            "proposals": [],
+            "deposit_params": {
+                "min_deposit": [
+                    {
+                        "denom": "ufct",
+                        "amount": "10000000"
+                    }
+                ],
+                "max_deposit_period": "172800s"
+            },
+            "voting_params": {
+                "voting_period": "172800s"
+            },
+            "tally_params": {
+                "quorum": "0.334000000000000000",
+                "threshold": "0.500000000000000000",
+                "veto_threshold": "0.334000000000000000"
+            }
+        },
+        "ibc": {
+            "client_genesis": {
+                "clients": [],
+                "clients_consensus": [],
+                "clients_metadata": [],
+                "params": {
+                    "allowed_clients": [
+                        "06-solomachine",
+                        "07-tendermint"
+                    ]
+                },
+                "create_localhost": false,
+                "next_client_sequence": "0"
+            },
+            "connection_genesis": {
+                "connections": [],
+                "client_connection_paths": [],
+                "next_connection_sequence": "0",
+                "params": {
+                    "max_expected_time_per_block": "30000000000"
+                }
+            },
+            "channel_genesis": {
+                "channels": [],
+                "acknowledgements": [],
+                "commitments": [],
+                "receipts": [],
+                "send_sequences": [],
+                "recv_sequences": [],
+                "ack_sequences": [],
+                "next_channel_sequence": "0"
+            }
+        },
+        "mint": {
+            "minter": {
+                "inflation": "0.130000000000000000",
+                "annual_provisions": "0.000000000000000000"
+            },
+            "params": {
+                "mint_denom": "ufct",
+                "inflation_rate_change": "0.130000000000000000",
+                "inflation_max": "0.200000000000000000",
+                "inflation_min": "0.070000000000000000",
+                "goal_bonded": "0.670000000000000000",
+                "blocks_per_year": "6311520"
+            }
+        },
+        "nft": {
+            "nftItemList": [],
+            "nftItemCount": "0"
+        },
+        "params": null,
+        "slashing": {
+            "params": {
+                "signed_blocks_window": "100",
+                "min_signed_per_window": "0.500000000000000000",
+                "downtime_jail_duration": "600s",
+                "slash_fraction_double_sign": "0.050000000000000000",
+                "slash_fraction_downtime": "0.010000000000000000"
+            },
+            "signing_infos": [],
+            "missed_blocks": []
+        },
+        "staking": {
+            "params": {
+                "unbonding_time": "1814400s",
+                "max_validators": 100,
+                "max_entries": 7,
+                "historical_entries": 10000,
+                "bond_denom": "ufct"
+            },
+            "last_total_power": "0",
+            "last_validator_powers": [],
+            "validators": [],
+            "delegations": [],
+            "unbonding_delegations": [],
+            "redelegations": [],
+            "exported": false
+        },
+        "token": {
+            "tokenDataList": []
+        },
+        "transfer": {
+            "port_id": "transfer",
+            "denom_traces": [],
+            "params": {
+                "send_enabled": true,
+                "receive_enabled": true
+            }
+        },
+        "upgrade": {},
+        "vesting": {}
+    }
+}
