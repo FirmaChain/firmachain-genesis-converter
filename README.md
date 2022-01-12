@@ -33,3 +33,9 @@ How to build firmachain-genesis-converter
 * If vesting_count does not have a value, it is created to BaseAccount.
 * If vesting_count has a value, it is created to PeriodicVestingAccount. Also, vesting_periods are created according to the number of vesting_period_arry.
 
+The files created as examples are attached
+------------------------------------------
+* [220112_FIRMACHAIN_Genesis_Vesting(SAMPLE).csv](https://github.com/FirmaChain/firmachain-genesis-converter/files/7851711/220112_FIRMACHAIN_Genesis_Vesting.SAMPLE.csv)
+* [220112_FIRMACHAIN_Vesting_for_CSV(SAMPLE).xlsx](https://github.com/FirmaChain/firmachain-genesis-converter/files/7851713/220112_FIRMACHAIN_Vesting_for_CSV.SAMPLE.xlsx)
+
+* This is a sample Excel file that can create a csv file and a vesting list generated from the sample Excel file.
