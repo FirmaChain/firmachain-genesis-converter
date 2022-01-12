@@ -18,6 +18,7 @@ export const ParseCSV = (csv) => {
 }
 
 const orgnizeCSV = (result) => {
+    GenesisActions.createDataArray(null);
     createJsons(result);
 }
 

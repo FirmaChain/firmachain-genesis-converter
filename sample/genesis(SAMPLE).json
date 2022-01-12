@@ -39,34 +39,6 @@
                     "sequence": "0"
                 },
                 {
-                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
-                    "address": "firma1ueqn0yshlcr9gjfwl8629kyaypk9fptrag0l09",
-                    "pub_key": null,
-                    "account_number": "0",
-                    "sequence": "0"
-                },
-                {
-                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
-                    "address": "firma1028k2v9te5ccs5rtrnd47ehdfta2kjcwf4f9f6",
-                    "pub_key": null,
-                    "account_number": "0",
-                    "sequence": "0"
-                },
-                {
-                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
-                    "address": "firma1ekmwzlycm5cjuuq9kl8e5ahfdr4d2wgsjgv07s",
-                    "pub_key": null,
-                    "account_number": "0",
-                    "sequence": "0"
-                },
-                {
-                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
-                    "address": "firma1rzz4jcn3qet8uve6pnjkvmv65j0dsxsdvk8xdj",
-                    "pub_key": null,
-                    "account_number": "0",
-                    "sequence": "0"
-                },
-                {
                     "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
                     "base_vesting_account": {
                         "base_account": {
