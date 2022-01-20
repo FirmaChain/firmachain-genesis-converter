@@ -34,18 +34,19 @@ export const JsonForVesting = (item) => {
     for(var i = 1; i <= Number(item.vesting_count); i++) {
         const keyName = 'vesting_period_arry_'+i;
 
-        periodTime += Number(JSON.parse(item[keyName])[0]);
-        periodAmount += Number(JSON.parse(item[keyName])[1]);
-
-        period.push({
-            length: `${JSON.parse(item[keyName])[0]}`,
-            amount: [{
-                amount:`${JSON.parse(item[keyName])[1]}`,
-                denom:"ufct",
-            }],
-
-        })
-
+        if(item[keyName] !== undefined && item[keyName] !== ''){
+            periodTime += Number(JSON.parse(item[keyName])[0]);
+            periodAmount += Number(JSON.parse(item[keyName])[1]);
+    
+            period.push({
+                length: `${JSON.parse(item[keyName])[0]}`,
+                amount: [{
+                    amount:`${JSON.parse(item[keyName])[1]}`,
+                    denom:"ufct",
+                }],
+    
+            })
+        }
     }
 
     vestingJson['vesting_periods'] = [

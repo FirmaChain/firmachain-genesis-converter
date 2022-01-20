@@ -12,7 +12,7 @@ export const ParseCSV = (csv) => {
                 PublicActions.setCsvFileName(''); 
                 return alert("Invalid format. Please check the CSV file.");
             }
-            orgnizeCSV(result.data);
+            orgnizeCSV(result.data.filter(item => item.address !== ''));
         }
     });
 }
